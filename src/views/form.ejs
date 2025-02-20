@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+</head>
+<body>
+    <h1><%=title%></h1>
+    <form action="/new" method="post">
+        <label for="messageUser">Your name:</label>
+        <input type="text" name="messageUser" id="messageUser" required>
+
+        <label for="message">Message:</label>
+        <input type="text" name="message" id="message">
+
+        <button type="submit">Send</button>
+    </form>
+    <a href="/">Back to message board</a>
+</body>
+</html>
